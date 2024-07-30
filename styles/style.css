@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  height: 34px;
+  width: 34px;
+}
+
+main {
+  font-family: YekanBakhMedium;
+}
+main #main-img {
+  background-image: url(../img/lcqgyazh.sxv_big.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main #main-img h2 {
+  font-family: YekanBakhHeavy;
+  color: #ffffff;
+}
+main #main-img address {
+  font-family: YekanBakhHeavy;
+  color: #ffffff;
+}
+main #main-img .spinner-grow {
+  background-image: radial-gradient(circle, rgba(0, 170, 48, 0.3019607843), rgb(69, 184, 69));
+}
+main #main-img #order {
+  font-size: 0.9rem;
+}
+main #basket {
+  border: 1px solid rgb(204, 204, 204);
+}/*# sourceMappingURL=style.css.map */
