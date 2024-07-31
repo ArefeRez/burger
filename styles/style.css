@@ -55,4 +55,37 @@ main #menu #button-1 {
   border-top: 1px solid rgb(204, 204, 204);
   border-left: 1px solid rgb(204, 204, 204);
   border-right: 1px solid rgb(204, 204, 204);
+}
+main #input {
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px dashed rgb(204, 204, 204);
+}
+main #card-title {
+  color: rgb(136, 136, 136);
+  border-right: 1px solid rgb(204, 204, 204);
+}
+main #card-title a {
+  color: rgb(136, 136, 136);
+}
+main .card h5 {
+  font-size: 1rem;
+  color: #333333;
+}
+main .card p {
+  font-size: 0.9rem;
+  color: #333333;
+}
+main .card a {
+  border: 1px solid #000000;
+}
+main .card a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+main .card i:hover {
+  color: #ffffff;
+}
+main #border-right {
+  border-right: 1px solid rgb(204, 204, 204);
 }/*# sourceMappingURL=style.css.map */
