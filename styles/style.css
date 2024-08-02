@@ -86,6 +86,35 @@ main .card a:hover {
 main .card i:hover {
   color: #ffffff;
 }
+main .card img:hover {
+  background-color: #ffffff;
+  opacity: 0.3;
+  z-index: 500;
+  transition: 1s;
+}
+main .card #btn-favorite {
+  color: #333333;
+  font-size: 0.8rem;
+  padding-top: 7px;
+}
 main #border-right {
   border-right: 1px solid rgb(204, 204, 204);
+}
+
+footer #border-top {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+footer p {
+  color: #333333;
+}
+footer #border-bottom {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+footer .vendo-logo {
+  width: 1rem;
+  height: 1rem;
+}
+footer #vendo {
+  text-decoration: none;
+  color: #8228e1;
 }/*# sourceMappingURL=style.css.map */
