@@ -26,7 +26,8 @@
                     <h2 class="mt-5">فست فود هفده</h2>
                     <address class="mt-3">آدرس: گلسار بلوار توحید نرسیده به خیابان 101</address>
                 </div>
-                <div class="d-md-flex justify-content-md-between text-center">
+                <div class="my-5 text-dark d-none d-md-block">.</div>
+                <div class="d-md-flex justify-content-md-between text-center mt-5">
                     <div class="d-flex justify-content-center">
                         <div class="spinner-grow" role="status">
                             <span class="visually-hidden">Loading...</span>
@@ -58,8 +59,8 @@
                 <!-- cards -->
                 <div id="border-right" class="d-flex flex-wrap flex-md-nowrap">
                   <div class="card ms-3 " style="width: 18rem;">
-                    <img src="./img/4n2hmsy3.xvm_560x350.jpg" class="card-img-top" alt="...">
-                    <!-- <p>رژیم داری؟؟ خودت سالادتو بساز و سفارش بده...</p> -->
+                    <img src="./img/4n2hmsy3.xvm_560x350.jpg" class="card-img-top position-relative" alt="...">
+                    <p id="caption" class="position-absolute d-none" style="top: 50px;">رژیم داری؟؟ خودت سالادتو بساز و سفارش بده...</p>
                     <div class="card-body">
                       <h5 class="card-title fw-bold">MY SALAD</h5>
                       <div class="d-flex justify-content-between"><p class="card-text">39,000 تومان</p>
@@ -812,9 +813,9 @@
                 </div>
             </div>
 
-            <div id="basket" class=" rounded-3 col-4 d-lg-block d-none">
+            <div id="basket" class=" rounded-3 col-4 d-lg-block d-none sticky-top">
                 <p class="fw-bold p-2 border-bottom mb-5">سبد خرید</p>
-                <i class="bi bi-cart3"></i>
+                <div class="d-flex justify-content-center"><i class="bi bi-cart3"></i></div>
                 <p id="basket-p" class="fs-5">سبد خرید خالی است</p>
             </div>
         </div>

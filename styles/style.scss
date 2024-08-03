@@ -9,7 +9,7 @@ main{
     font-family: YekanBakhMedium;
     #main-img{
         height: 300px;
-        background-image: url(../img/lcqgyazh.sxv_big.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/lcqgyazh.sxv_big.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -95,6 +95,10 @@ main{
             opacity: 0.3;
             z-index: 500;
             transition: 1s;
+            }
+            &:hover #caption{
+                display: block;
+                z-index: 1000;
             }
         }
         #btn-favorite{
